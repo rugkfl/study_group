@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>레드향</h1>
+    <p>껍질에 붉은 빛이 돌아 레드향이라 불린다</p>
+    <p>레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, <br> 과육이 붉고 통통하다. </p>
+    <blockquote>비타민 C와 비타민 p가 풍부해 혈액순환, 감기예방 등에 좋은 것으로 알려져 있다. </blockquote>
+    <abbr title="Internet of Things">IoT</abbr>
+    <p>내가 경험한 가장 흥미진진한 일은 누군가를 만나는 일이다 - 영화, <cite>''비포선셋</cite> 중</p>
+    <p>가격: 13.000dnjs <small>(부가세 별도)</small></p>
+    <p>물의 화학식은 H<sub>2</sub>O 입니다.</p>
+    <p>E = mc<sup>2</sup></p>
+    <p><s>34.000원</s>19.000원</p>
+    <u>중요합니다.</u>
+    <ins>새로운 내용을 삽입합니다.</ins>
+    <del>기존 내용을 삭제합니다.</del>
+
+    <h2>상품 구성</h2>
+    <table border="1">
+        <caption>선물용과 가정용 상품 구성</caption>
+        <colgroup>
+            <col style="background-color: #eee;">
+            <col>
+            <col span="2" style="width: 150px;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>용도</th>
+                <th>중량</th>
+                <th>개수</th>
+                <th>가격</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">선물용</td>
+                <td>3kg</td>
+                <td>11~26과</td>
+                <td>35,000원</td>
+            </tr>
+            <tr>
+
+                <td>3kg</td>
+                <td>18~26과</td>
+                <td>52,000원</td>
+            </tr>
+            <tr>
+                <td rowspan="2">가정용</td>
+                <td>3kg</td>
+                <td>11~16과</td>
+                <td>30,000원</td>
+            </tr>
+            <tr>
+
+                <td>5kg</td>
+                <td>18~26과</td>
+                <td>47,000원</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>먹거리</h2>
+    <table border=1>
+        <tr>
+            <th>입춘 천냥 국수</th>
+            <td>11:00 ~ 16:00</td>
+            <td>목관아 주차장</td>
+        </tr>
+        <tr>
+            <th>제주 향토 음식</th>
+            <td>10:30 ~ 17:00</td>
+            <td>관덕청 마당</td>
+        </tr>
+        <tr>
+            <th>입춘 주전부리</th>
+            <td>10:30 ~ 17:00</td>
+            <td>관덕청 마당</td>
+        </tr>
+        <tr>
+            <th>차 나눔</th>
+            <td>10:30 ~ 17:00</td>
+            <td>관덕청 마당</td>
+        </tr>
+
+    </table>
+
+    <img src="images/tangerines.jpg" alt="레드향">
+    <p><a href="http://blog.daum.net/jepaf/2" target="_blank">자세한 정보 보기</a></p>
+    <form action="">
+        <fieldset>
+            <legend>상품 선택</legend>
+            <p><b>주문할 상품을 선택해 주세요.</b></p>
+            <input type="checkbox" name="chekc01" id="gift01">
+            <label for="gift01">선물용 3kg</label>
+            <input type="checkbox" name="check02" id="gift02">
+            <label for="gift02">선물용 5kg</label>
+            <input type="checkbox" name="check03" id="gift03">
+            <label for="gift03">가정용 3kg</label>
+            <input type="checkbox" name="check04" id="gift04">
+            <label for="gift04">가정용 5kg</label>
+
+            <p><b>포장 선택</b></p>
+            <input type="radio" name="radio" id="yes">
+            <label for="gift">선물 포장</label>
+            <input type="radio" name="radio" id="no">
+            <label for="gift">선물 포장 안함</label>
+            <!-- radio에서 둘 중 하나만 선택하게 할려면 name 값이 같아야 한다. -->
+        </fieldset>
+        <fieldset>
+            <legend>배송 정보</legend>
+            <ul>
+                <li>
+                    <label for="username">이름</label>
+                    <input type="text" name="name" id="username">
+                </li>
+                <li>
+                    <label for="userpassword">비밀번호</label>
+                    <input type="password" name="password" id="userpassword">
+                </li>
+                <li>
+                    <label for="useremail">이메일</label>
+                    <input type="email" name="email" id="useremail">
+                </li>
+                <li>
+                    <label for="userphonenum">연락처</label>
+                    <input type="tel" name="tel" id="userphonenum" placeholder="하이픈 빼고 입력해 주세요.(01012345678)">
+                </li>
+            </ul>
+            <input type="button" value="로그인">
+        </fieldset>
+       <!--<fieldset>
+             <legend>로그인</legend>
+            <label for="userid">아이디</label>
+            <input type="text" name="loginid" id="userid" maxlength="10">
+            <label for="userpassword">비밀번호</label>
+            <input type="password" name="loginpassword" id="userpassword" maxlength="15">
+            <input type="submit" value="로그인">
+            </fieldset>
+           검색창 : <input type="search" name="search" id="">
+        -->
+    </form>
+    <hr>
+    <h1>회원 가입을 환영합니다</h1>
+    <form action="">
+        <fieldset>
+            <legend>사용자 정보</legend>
+            <ul>
+                <li>
+                    <label for="personalid"><b>아이디</b></label>
+                    <input type="text" name="id01" id="personalid" autofocus placeholder="4자 ~ 10자 사이, 공백없이" required>
+                </li>
+                <li>
+                    <label for="personalemail"><b>이메일</b></label>
+                    <input type="email" name="mail" id="personalemail" required>
+                </li>
+                <li>
+                    <label for="personalpw"><b>비밀번호</b></label>
+                    <input type="password" name="pw01" id="personalpw" placeholder="문자와 숫자, 특수 기호 포함" required>
+                </li>
+                <li>
+                    <label for="pwcheck"><b>비밀번호 확인</b></label>
+                    <input type="password" name="pw02" id="pwcheck" required>
+                </li>
+                <li>
+                    <label for="path"><b>가입 경로</b></label>
+                    <select name="" id="path">
+                        <option value="blog">블로그</option>
+                        <option value="search">검색</option>
+                        <option value="sns">SNS</option>
+                        <option value="etc">기타</option>
+                    </select>                    
+                </li>
+                <li>
+                    <label for="memo02">메모</label>
+                    <textarea name="" id="memo02" cols="30" rows="10" placeholder="남길 말씀이 있다면 여기에"></textarea>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>이벤트와 새로운 소식</legend>
+            <input type="radio" name="mailsend" id="yes01">
+            <label for="yes01">메일 수신</label>
+            <input type="radio" name="mailsend" id="no02">
+            <label for="no02">메일 수신 안 함</label>
+        </fieldset>
+        <input type="button" value="가입하기">
+        <input type="reset" value="취소">
+        <hr>
+        <ul>
+            <li>
+                <input type="checkbox" name="gift05" id="3kg">
+                <label for="3kg">선물용 3kg</label>
+                <input type="number" name="number" id="" min="0" max="5">개 (최대 5개)     
+            </li>
+            <li>
+                <input type="checkbox" name="gift06" id="5kg">
+                <label for="5kg">선물용 5kg</label>
+                <input type="number" name="numer02" id="" min="0" max="3" value="1">개 (최대 3개)
+            </li>
+        </ul>
+        <hr>
+        <ul>
+            <li>
+                <input type="checkbox" name="gift07" id="3kg01">
+                <label for="3kg01">선물용 3kg</label>
+                <input type="range" name="range01" id="" min="0" max="5">개 (최대 5개)
+            </li>
+            <li>
+                <input type="checkbox" name="gift08" id="5kg02">
+                <label for="5kg02">선물용 5kg</label>
+                <input type="range" name="range02" id="" min="0" max="3" value="1">개 (최대 3개)
+            </li>
+        </ul>
+    </form>
+    <hr>
+    <h1>날짜 지정하기</h1>
+    <form action="">
+        <input type="date" name="" id="">
+        <input type="month" name="" id="">
+        <input type="week" name="" id="">
+    </form>
+    <hr>
+    <h1>시간 지정하기</h1>
+    <form action="">
+        <input type="time" name="" id="">
+        <input type="datetime" name="" id="">
+        <input type="datetime-local" name="" id="">
+        <input type="date" name="" id="" min="2023-02-01" max="2023-02-15" value="2023-02-01">
+    </form>
+    <hr>
+    <h1>파일 첨부하기</h1>
+    <form action="">
+        <input type="file" name="" id="">
+    </form>
+    <hr>
+    <form action="">
+        <fieldset>
+            <legend>배송 정보</legend>
+            <ul>
+                <li>
+                    <label for="prod">주문 상품</label>
+                    <input type="text" name="orderproduct" id="prod" value="상풍용 3KG" readonly>
+                </li>
+                <li>
+                    <label for="user-name">이름</label>
+                    <input type="text" name="name01" id="user-name" required>
+                </li>
+                <li>
+                    <label for="addr">배송 주소</label>
+                    <input type="text" name="address" id="addr" required>
+                </li>
+                <li>
+                    <label for="mail01">이메일</label>
+                    <input type="email" name="emial01" id="mail01">
+                </li>
+                <li>
+                    <label for="phone">연락처</label>
+                    <input type="tel" name="tel01" id="phone" required placeholder="하이픈 빼고 입력해 주세요.(01012345678)">
+                </li>
+                <li>
+                    <label for="d-day">배송 지정</label>
+                    <input type="date" name="date01" id="d-day"> <small>(주문일로부터 최소 3일 이후)</small>
+                </li>
+                <li>
+                    <label for="memo">메모</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </li>
+            </ul>
+        </fieldset>
+        <button type="submit">주문하기</button>
+        <button type="reset">취소하기</button>
+    </form>
+    <hr>
+    <form action="">
+        <label for="prod2">포장 여부</label>
+        <input type="text" name="prod01" id="prod2" list="pack">
+        <datalist id="pack">
+            <option value="package">선물 포장</option>
+            <option value="no_package">포장 안 함</option>
+        </datalist>
+    </form>
+</body>
+
+</html>
